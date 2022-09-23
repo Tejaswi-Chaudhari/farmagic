@@ -1,1 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather&display=swap');
+
+body{
+font-family: 'Merriweather', serif;
+overflow-x: hidden;
+background-color: var(--extralight);
+color:var(--almostblack)
+}
+
+:root{
+    --extralight: #f6ffd9;
+    --lightgreen1: #dfffd6;
+    --lightgreen2: #a4e383;
+    --green: #69c62f;
+    --darkgreen: #036326;
+    --lightbrown: #cec486;
+    --brown: #6f4506;
+    --almostblack: #1f271b;
+}
+
+
 
