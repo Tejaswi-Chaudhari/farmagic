@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Mr+Dafoe&display=swap');
+
+.gallery{
+    margin-top: 50px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-color: #ffffff;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+.gallery-details{
+    text-align: center;
+}
+.gallery-h{
+    font-family: 'Mr Dafoe', cursive;
+    font-size: 55px;
+    margin-top: 30px;
+    margin-bottom: 50px;
+    text-decoration: underline;
+    color: var(--lightbrown);
+    text-decoration-color: var(--lightbrown);
+}
+.gallery-txt{
+    font-size: small;
+    margin-top: 10px;
+}
+.gallery-btn{
+    background-color: var(--lightbrown);
+    border-radius: 30px;
+    border: none;
+}
