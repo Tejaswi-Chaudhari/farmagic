@@ -21,7 +21,6 @@ function Home() {
       <Carousel.Item>
         <img className="d-block w-100" src={c_img3} alt="Third slide" />
       </Carousel.Item>
-
     </Carousel>
   );
 }
