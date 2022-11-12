@@ -1,0 +1,16 @@
+.footer{
+    background-color: var(--lightgreen1);
+    margin-top: 50px;
+    padding-top: 70px;
+    padding-bottom: 20px;
+}
+.address-line-2{
+    font-size: small;
+}
+.main-footer{
+    margin-bottom: 50px;
+}
+.cc{
+    text-align: center;
+    font-size: small;
+}
