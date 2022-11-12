@@ -29,3 +29,8 @@
     border-radius: 30px;
     border: none;
 }
+.gallery-btn:hover{
+    background-color: var(--lightbrown) !important;
+    border-radius: 30px;
+    border: none;
+}
