@@ -17,6 +17,7 @@ const Header = () => {
               <NavDropdown.Item href="/">Oil</NavDropdown.Item>
               <NavDropdown.Item href="/">Black Rice</NavDropdown.Item>
             </NavDropdown>
+            <Nav.Link href="/" className="header-txt">Gallery</Nav.Link>
           </Nav>
         </Navbar.Collapse>
       </Container>

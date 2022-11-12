@@ -1,12 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Mr+Dafoe&display=swap');
+
 .homepage{
     border:none;
 }
 
 .card-title{
-    font-size: 50px;
+    font-size: 70px;
+    font-family: 'Mr Dafoe', cursive;
+    text-decoration: underline;
+    margin-bottom: 20px;
+    color: var(--darkgreen);
 }
 
 .farminfo{
+    font-size: small;
     background-color: var(--extralight);
     border: none;
 }
@@ -16,4 +23,13 @@
     margin-right: 50px;
     margin-left: 15px;
     padding-right: 20px;
+}
+
+.details-img{
+    border: none;
+    background-color: var(--extralight);
+}
+
+.farmhouse-img:hover{
+    transform: scale(1.05);
 }

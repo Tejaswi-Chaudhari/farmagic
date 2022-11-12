@@ -1,16 +1,16 @@
 @import url('https://fonts.googleapis.com/css2?family=Mr+Dafoe&display=swap');
 
 .header{
-    background-color: var(--lightgreen2);
-    color: #ffffff;
+    background-color: var(--lightgreen1);
+    color: #000000;
 }
 .header .header-brand-txt, .navbar-brand{
     font-size: 38px;
     font-family: 'Mr Dafoe', cursive;
-    color: #ffffff;
+    color: #000000;
     margin-right: 30px;
     text-decoration: underline;
-    text-decoration-color: var(--lightbrown);
+    text-decoration-color: #000000;
 }
 .header .header-nav-links .header-txt{
     font-size: large;
@@ -18,12 +18,11 @@
     margin-right: 15px;
     padding-right: 20px;
     padding-left: 20px;
-    color: #ffffff;
+    color: #000000;
 }
-.header .header-nav-links .header-txt:hover{
-    background-color: var(--lightbrown);
+.header .header-nav-links .header-txt:hover, .dropdown-toggle:hover{
     border-radius: 30px;
-    color: #ffffff;
+    background-color: var(--lightgreen2);
 }
 .dropdown-toggle{
     font-size: large;
@@ -31,16 +30,11 @@
     margin-right: 15px;
     padding-right: 20px;
     padding-left: 20px;
-    color: #ffffff;
-}
-.dropdown-toggle:hover{
-    background-color: var(--lightbrown);
-    border-radius: 30px;
-    color: #ffffff;
+    color: #000000;
 }
 .navbar-toggler{
     border: none;
-    color: #ffffff;
+    color: #000000;
 }
 
 @media (max-width: 767px){

@@ -5,7 +5,7 @@ import c_img2 from "../Media/c_img2.png"
 import c_img3 from "../Media/c_img3.png"
 import farmhouse from "../Media/farmhouse.jpeg"
 import 'react-awesome-slider/dist/custom-animations/cube-animation.css';
-import Card from 'react-bootstrap/Card';
+import {Container} from 'react-bootstrap'
 
 import Carousel from 'react-bootstrap/Carousel';
 
@@ -30,12 +30,12 @@ function Home() {
       </div>
 
 <br></br>
-      <div class="farmhouse">
+      <Container class="farmhouse">
         <div class="row">
           <div class="col-sm-6">
-            <div class="card">
+            <div class="card details-img">
               <div class="card-body">
-                <img className="w-100" src={farmhouse} alt="House photo" />
+                <img className="w-100 farmhouse-img" src={farmhouse} alt="House photo" />
               </div>
             </div>
           </div>
@@ -52,7 +52,7 @@ function Home() {
             </div>
           </div>
         </div>
-       </div>
+       </Container>
      </div>
   );
 }

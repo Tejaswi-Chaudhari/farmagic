@@ -9,7 +9,8 @@ color:var(--almostblack)
 
 :root{
     --extralight: #f6ffd9;
-    --lightgreen1: #dfffd6;
+    /* --lightgreen1: #dfffd6; */
+    --lightgreen1: #cfffc2;
     --lightgreen2: #a4e383;
     --green: #69c62f;
     --darkgreen: #036326;
